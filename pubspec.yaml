@@ -1,0 +1,31 @@
+name: pengaduan_masyarakat
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations: 
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  collection: ^1.19.1
+  image_picker: ^1.1.2
+  # VERSI DIPERBARUI SESUAI PERMINTAAN FLUTTER
+  intl: ^0.20.2 # Menggunakan versi 0.18.1 yang kompatibel
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
